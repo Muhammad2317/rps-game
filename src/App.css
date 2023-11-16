@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.theme {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background-color: #00be63;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 50px;
+  height:50px ;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms ease;
+}
+
+.theme:hover {
+  transform: scale(1.2);
+  transition: 400ms ease;
+}
+
+.player {
+  position: relative;
+  width: 50vw;
+  background-color: #195fd6;
+  border-radius: 20px;
+  border: 2px solid #00be63;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.player__btn {
+  color: white !important;
+}
+
+.player__btn:hover {
+  color: #00be63 !important;
+}
+
+.points {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #00be63;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 50px;
+  height:50px ;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
